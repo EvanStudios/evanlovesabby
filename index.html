@@ -6,7 +6,7 @@
       margin: 0; 
       padding-top: 90px; 
       background: white; 
-      text-align: center; /* This centers ALL text */
+      text-align: center; 
     }
     audio { 
       position: fixed; 
@@ -26,17 +26,24 @@
     h1 { 
       text-shadow: 1px 1px 2px gray; 
       font-size: 4em; 
-      margin: 20px 0; /* Optional: nice spacing */
+      margin: 20px 0; 
     }
     p { 
       font-size: 2em; 
-      margin: 15px 0; /* Optional: clean spacing */
+      margin: 15px 0; 
+    }
+    .caption {
+      font-size: 0.9em;    /* Very small text */
+      color: #555;         /* Subtle gray */
+      font-style: italic;
+      margin: 8px 0 25px 0;
     }
   </style>
 </head>
 <body>
   <audio src=Song.mp3 loop controls autoplay></audio>
   <img src=Pic1.HEIC>
+  <div class="caption">First picture together - August 30th, 2025 - Bristol Renaissance Faire</div>
   <h1>Dear Abby,</h1>
   <p>Thank you for choosing me to be the lucky recipient of your kindness, grace, and purity.</p>
   <p>This is a test</p>
